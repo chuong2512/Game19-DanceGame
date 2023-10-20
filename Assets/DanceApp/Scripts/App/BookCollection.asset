@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341f70c621778da438579b141471404b, type: 3}
+  m_Name: BookCollection
+  m_EditorClassIdentifier: 
+  bookInfors:
+  - songID: 0
+    name: 
+    content: 
+    price: 200
+    icon: {fileID: 21300000, guid: 24576d920eb350b44a78daa405a3916e, type: 3}
+    clip: {fileID: 32900000, guid: 6cc8ff77b40f5004aa29b2bae720a2e2, type: 3}
+  - songID: 1
+    name: 
+    content: 
+    price: 200
+    icon: {fileID: 21300000, guid: 2bc7e8fb0d2623f4fb014e445d525537, type: 3}
+    clip: {fileID: 32900000, guid: 2b8b99f448194644b945cc0fbac977da, type: 3}
+  - songID: 2
+    name: 
+    content: 
+    price: 200
+    icon: {fileID: 21300000, guid: bb1bfe8c90aea70479457610b72325bc, type: 3}
+    clip: {fileID: 32900000, guid: c31b5c534ffd7dd438d7b9196724eef3, type: 3}
+  - songID: 3
+    name: 
+    content: 
+    price: 200
+    icon: {fileID: 21300000, guid: 2b8a98004c923ab4bb381352d85e95b3, type: 3}
+    clip: {fileID: 32900000, guid: f4f7ec915ee368a408c5d3f2bd2c6424, type: 3}
+  - songID: 4
+    name: 
+    content: 
+    price: 200
+    icon: {fileID: 21300000, guid: cdc2162b8321b354db28149ed682695f, type: 3}
+    clip: {fileID: 32900000, guid: 5d133ff71c60ed540a782dfb5fe56567, type: 3}
+  - songID: 5
+    name: 
+    content: 
+    price: 200
+    icon: {fileID: 21300000, guid: ffc87006036766944a2f77ccecc37f7d, type: 3}
+    clip: {fileID: 32900000, guid: a1f70a69182a10c4c8ae3878d34fcde7, type: 3}
+  - songID: 6
+    name: 
+    content: 
+    price: 200
+    icon: {fileID: 21300000, guid: 9f6673742007c654f8a347e4618e9ed5, type: 3}
+    clip: {fileID: 32900000, guid: 28024789dba50cd459ae2721c1d9a67a, type: 3}
+  - songID: 7
+    name: 
+    content: 
+    price: 200
+    icon: {fileID: 21300000, guid: 5d2b953edb539544db2a7073422eee22, type: 3}
+    clip: {fileID: 32900000, guid: 46d8d3d9171dce1409274ee0f4895612, type: 3}
+  folderPath: Assets/Card/Images
