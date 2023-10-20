@@ -36,5 +36,20 @@ namespace BabySound
         {
             GameManager.OnChangeCoin -= OnChangeCoin;
         }
+
+        public void PlayAnim(int i)
+        {
+            if (GameDataManager.Instance.playerData.coin >= 1)
+            {
+                Dancer.Instance.PlayAnim(i);
+                GameDataManager.Instance.playerData.MinusCoin();
+            }
+            else
+            {
+                UIManager.Instance.OpenScreen<IDModel>(ScreenType.UnlockPopup, new IDModel()
+                {
+                });
+            }
+        }
     }
 }

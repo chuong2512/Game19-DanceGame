@@ -7,18 +7,18 @@ using UnityEngine.Purchasing.Security;
 
 public class IAPKey
 {
-    public const string PACK1 = "funny_package_part_2_1";
-    public const string PACK2 = "funny_package_part_2_2";
-    public const string PACK3 = "funny_package_part_2_3";
-    public const string PACK4 = "funny_package_part_2_4";
-    public const string PACK5 = "funny_package_part_2_5";
-    public const string PACK6 = "funny_package_part_2_6";
+    public const string PACK1 = "dance_game_pack_1";
+    public const string PACK2 = "dance_game_pack_2";
+    public const string PACK3 = "dance_game_pack_3";
+    public const string PACK4 = "dance_game_pack_4";
+    public const string PACK5 = "dance_game_pack_5";
+    public const string PACK6 = "dance_game_pack_6";
 
-    public const string PACK1_REGISTER = "funny_package_part_2_register_1";
-    public const string PACK2_REGISTER = "funny_package_part_2_register_2";
-    public const string PACK3_REGISTER = "funny_package_part_2_register_3";
-    public const string PACK4_REGISTER = "funny_package_part_2_register_4";
-    public const string PACK5_REGISTER = "funny_package_part_2_register_5";
+    public const string PACK1_REGISTER = "dance_game_pack_register_1";
+    public const string PACK2_REGISTER = "dance_game_pack_register_2";
+    public const string PACK3_REGISTER = "dance_game_pack_register_3";
+    public const string PACK4_REGISTER = "dance_game_pack_register_4";
+    public const string PACK5_REGISTER = "dance_game_pack_register_5";
 }
 
 public class IAPManager : PersistentSingleton<IAPManager>, IStoreListener

@@ -59,7 +59,7 @@ public class PlayerData : BaseData
         timeRegister = DateTime.Now.ToBinary().ToString();
         time = 3 * 24 * 60 * 60;
 
-        coin = 0;
+        coin = 10;
         crtMusicalIns = 0;
         listMusical = new bool[Constant.countSong];
         isUnlock = false;
@@ -82,7 +82,7 @@ public class PlayerData : BaseData
         Save();
     }
 
-    public void Shoot()
+    public void MinusCoin()
     {
         coin--;
 

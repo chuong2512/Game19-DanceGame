@@ -5,18 +5,13 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class SceneLoader : PersistentSingleton<SceneLoader>
+public class SceneLoader : Singleton<SceneLoader>
 {
     public GameObject loadingScreen;
 
     //public CanvasGroup canvasGroup;
     private float _loading = 0;
     public TextMeshProUGUI loadingTMP;
-
-    public void Start()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
 
     public void StartGame(string sceneName)
     {
